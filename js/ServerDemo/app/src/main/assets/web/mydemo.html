@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的第一个标题</title>
+</head>
+<body>
+<form id="form1" method="post" action="/user/login">
+    <table align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="100" align="right">Account:&nbsp;&nbsp;</td>
+            <td width="276"><input name="account" type="text" id="account" value="admin"/></td>
+        </tr>
+        <tr>
+            <td width="100">&nbsp;&nbsp;</td>
+            <td width="276">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="right">Password:&nbsp;&nbsp;</td>
+            <td><input name="password" type="password" id="password" value="654321"/></td>
+        </tr>
+        <tr>
+            <td width="100">&nbsp;&nbsp;</td>
+            <td width="276">&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" name="Submit" value="Sign In"/>
+            </td>
+        </tr>
+    </table>
+</form>
+<div style="color:#0000FF">
+    <h3>=========我是分割线==============</h3>
+</div>
+ <form id="form2" method="post" action="/user/loginuser">
+     <table>
+        <tr>
+            <td width="200"><input name="username" type="text" id="username" value="jakeson"></td>
+        </tr>
+         <tr>
+             <td width="200"><input name="password" type="text" id="password" value="123456"></td>
+         </tr>
+         <tr>
+             <td width="120"><input name="submit" type="submit" value="send">
+         </tr>
+     </table>
+ </form>
+
+<div style="color:#0000FF">
+    <h3>=========我是分割线2==============</h3>
+</div>
+
+<form id="form3" method="get" action="/user/message">
+    <table>
+        <tr>
+            <td><input type="submit" name="submit" value="message">
+        </tr>
+    </table>
+</form>
+</body>
+</html>
